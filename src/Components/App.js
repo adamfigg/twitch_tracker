@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 
 import { connect } from 'react-redux';
 
-import { getStreams } from './../redux/actions'
+import { getStreams } from './../redux/actions';
+
+import ShowPopularGames from './ShowPopularGames';
 
 import {
 	SApp
@@ -18,7 +20,10 @@ class App extends Component {
 		return (
 			<SApp>
 				<div>
-					We now have working redux in a react app, now to add in the twitch api correctly yippi!
+					Welcome to the Twitch Tracker.
+				</div>
+				<div>
+					< ShowPopularGames />
 				</div>
 			</SApp>
 		);
