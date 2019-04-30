@@ -18,7 +18,7 @@ class App extends Component {
 		return (
 			<SApp>
 				<div>
-					Hope this works!
+					We now have working redux in a react app, now to add in the twitch api correctly yippi!
 				</div>
 			</SApp>
 		);
